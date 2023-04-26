@@ -7,18 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		27431EEF29F2610600375213 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27431EEE29F2610600375213 /* GameView.swift */; };
 		27EC601429F0F2C400553ABB /* SwiftUI100DaysApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27EC601329F0F2C400553ABB /* SwiftUI100DaysApp.swift */; };
 		27EC601629F0F2C400553ABB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27EC601529F0F2C400553ABB /* ContentView.swift */; };
 		27EC601829F0F2C500553ABB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27EC601729F0F2C500553ABB /* Assets.xcassets */; };
 		27EC601B29F0F2C500553ABB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27EC601A29F0F2C500553ABB /* Preview Assets.xcassets */; };
+		27EC602429F0FCAE00553ABB /* Background.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27EC602329F0FCAE00553ABB /* Background.swift */; };
+		27EC602629F104AC00553ABB /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27EC602529F104AC00553ABB /* GradientView.swift */; };
+		27EC602829F1480200553ABB /* LoginScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27EC602729F1480200553ABB /* LoginScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		27431EEE29F2610600375213 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
 		27EC601029F0F2C400553ABB /* SwiftUI100Days.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUI100Days.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		27EC601329F0F2C400553ABB /* SwiftUI100DaysApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI100DaysApp.swift; sourceTree = "<group>"; };
 		27EC601529F0F2C400553ABB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		27EC601729F0F2C500553ABB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		27EC601A29F0F2C500553ABB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		27EC602329F0FCAE00553ABB /* Background.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Background.swift; sourceTree = "<group>"; };
+		27EC602529F104AC00553ABB /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		27EC602729F1480200553ABB /* LoginScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +61,10 @@
 			children = (
 				27EC601329F0F2C400553ABB /* SwiftUI100DaysApp.swift */,
 				27EC601529F0F2C400553ABB /* ContentView.swift */,
+				27EC602529F104AC00553ABB /* GradientView.swift */,
+				27EC602729F1480200553ABB /* LoginScreen.swift */,
+				27EC602329F0FCAE00553ABB /* Background.swift */,
+				27431EEE29F2610600375213 /* GameView.swift */,
 				27EC601729F0F2C500553ABB /* Assets.xcassets */,
 				27EC601929F0F2C500553ABB /* Preview Content */,
 			);
@@ -138,7 +150,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				27EC601629F0F2C400553ABB /* ContentView.swift in Sources */,
+				27EC602629F104AC00553ABB /* GradientView.swift in Sources */,
 				27EC601429F0F2C400553ABB /* SwiftUI100DaysApp.swift in Sources */,
+				27EC602429F0FCAE00553ABB /* Background.swift in Sources */,
+				27431EEF29F2610600375213 /* GameView.swift in Sources */,
+				27EC602829F1480200553ABB /* LoginScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,6 +285,8 @@
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftUI100Days/Preview Content\"";
 				DEVELOPMENT_TEAM = TWML9NCY32;
 				ENABLE_PREVIEWS = YES;
+				EXCLUDED_ARCHS = "";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
